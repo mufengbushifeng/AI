@@ -1,0 +1,19 @@
+# Local AI-tool integration directories — regenerable via `openspec init`
+# and each tool's own installer; not part of the project's source of truth.
+.*/
+
+# Local scratch / issues / running state
+.scratch/
+*.log
+
+# Python / Node build artifacts
+__pycache__/
+*.pyc
+node_modules/
+dist/
+build/
+
+# Local brain / database files
+*.pglite
+*.db
+*.sqlite
